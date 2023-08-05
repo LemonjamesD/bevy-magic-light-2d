@@ -46,11 +46,11 @@ impl Default for LightPassParams {
 #[rustfmt::skip]
 #[derive(Default, Resource, Copy, Clone)]
 pub struct ComputedTargetSizes {
-    pub(crate) primary_target_size:  Vec2,
-    pub(crate) primary_target_isize: IVec2,
-    pub(crate) primary_target_usize: UVec2,
+    pub primary_target_size:  Vec2,
+    pub primary_target_isize: IVec2,
+    pub primary_target_usize: UVec2,
 
-    pub(crate) sdf_target_size:      Vec2,
-    pub(crate) sdf_target_isize:     IVec2,
-    pub(crate) sdf_target_usize:     UVec2,
+    pub sdf_target_size:      Vec2,
+    pub sdf_target_isize:     IVec2,
+    pub sdf_target_usize:     UVec2,
 }
